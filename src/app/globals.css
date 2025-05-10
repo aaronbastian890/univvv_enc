@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.App {
+  /* text-align: center; */
+  /* width: 100%; */
+  background: #dcdcdc !important;
+  /* height: 100vh */
+}
+
+.microsoft {
+  display:flex;
+  justify-content: center;
+  background-image: url('../../public/outlook_home.png'); /* Replace with your image path */
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+.gmail {
+  display:flex;
+  justify-content: center;
+  background-image: url('../../public/gmail_home.png'); /* Replace with your image path */
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+.yandex {
+  display:flex;
+  justify-content: center;
+  background-image: url('../../public/yandex_home.png'); /* Replace with your image path */
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+.yahoo {
+  display:flex;
+  justify-content: center;
+  background-image: url('../../public/yahoo_home.png'); /* Replace with your image path */
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+
+.frosted-box {
+  /* background: rgba(255, 255, 255, 0.1); */
+  background: rgba(153, 158, 161, 0.534);
+  backdrop-filter: blur(0px);
+  /* border-radius: 16px; */
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100vh
+}
+
+/*
+body{
+
+} */
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

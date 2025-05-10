@@ -1,0 +1,28 @@
+.outer{
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 15%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 450px) {
+  .center{
+    width: 60%;
+  }
+ }
+
+ @media only screen and (max-width: 400px) {
+  .center{
+    width: 70%;
+  }
+ }
+
+ @media only screen and (max-width: 350px) {
+  .center{
+    width: 80%;
+  }
+ }
